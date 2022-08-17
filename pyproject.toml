@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "algo"
+version = "0.1.0"
+description = ""
+authors = ["Bart Tange <barttange@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+TA-Lib = "^0.4.24"
+pandas = "^1.4.3"
+Backtesting = "^0.3.3"
+tpqoa = {git = "https://github.com/yhilpisch/tpqoa.git"}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+jupyter = "^1.0.0"
+ipykernel = "^6.15.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

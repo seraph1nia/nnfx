@@ -1,0 +1,4 @@
+poetry install
+poetry update
+poetry shell
+poetry run jupyter notebook
